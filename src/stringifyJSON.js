@@ -4,5 +4,16 @@
 // but you don't so you're going to write it from scratch:
 
 var stringifyJSON = function(obj) {
-  // your code goes here
+    newObj = obj.toString();
+    newObj = newObj.split();
+    var newArray = [];
+    var repeat = function (){
+        newArray.push(newObj.shift());
+        if(newObj.length > 0){
+            repeat();
+        }
+        else{
+            return newArray.toString();
+        }
+    }
 };
