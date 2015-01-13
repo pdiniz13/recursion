@@ -15,7 +15,6 @@ var getElementsByClassName = function(className){
             getElementsByClassName(className);
         }
         else {
-            console.log(HTMLCollection);
             x=0;
             if(returnValue.length < HTMLCollection.length){
                 HTMLCollection = HTMLCollection.slice(0,returnValue.length);
