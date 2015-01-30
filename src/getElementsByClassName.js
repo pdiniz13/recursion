@@ -27,7 +27,7 @@ var getElementsByClassName = function(className2, newArray, returnValue){
 };
 
 
-
+//test git in linux
 //var x = 0;
 //var HTMLCollection = [];
 //var getElementsByClassName = function(className){
